@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Healthcare Website Design </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="subheader">
+            <nav>
+                <a href="index.html"><img src="images/logo3.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times"  onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="course.html">CLASSES</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"> </i>
+            </nav>
+            
+            <h1>ABOUT US</h1>                      
+        </section>
+     <!----aboutuscontent-->
+     <section class="aboutus">
+        <div class="row">
+            <div class="about-col">
+                <h1>
+                  Learn To Attune With Nature's Rhythms.
+                </h1>
+                <p>
+                    These classes invite you into a deeper experience of your own body and mind, as you align with the rhythms of nature.
+                    Each class reflects the distinct personality and strengths of the teacher.
+                    Discover Soul Journeys for deeper Self-care, to honor your body’s innate wisdom. Learn how to effectively teach others in a way that is nurturing for the whole being.You can expect to root, align, and flow with intention. 
+                </p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>   
+                     </div>
+                     <div class="about-col">
+                        <img src="images/aboutus.avif" alt="">
+                     </div>
+        </div>
+     </section>
+<!----footer-->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>
+        At Yoga Studio we draw inspiration from the natural elements to set the tone and pace of our yoga classes.
+      <br> These classes invite you into a deeper experience of your own body and mind, as you align with the rhythms of nature.
+     
+    </p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        
+<p>Made by Khushi Bansal</p>
+    </div>
+</section>
+
+        <!-----Javascript for togglemenu---->
+        <script>
+            var navLinks=document.getElementById("navLinks");
+           
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+
+        </script>
+    </body>
+</html> 
